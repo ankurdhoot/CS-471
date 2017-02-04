@@ -85,19 +85,69 @@ def depthFirstSearch(problem):
     print "Start:", problem.getStartState()
     print "Is the start a goal?", problem.isGoalState(problem.getStartState())
     print "Start's successors:", problem.getSuccessors(problem.getStartState())
+    print problem.__class__.__name__
     """
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    from util import Stack
+    marked = set()
+    frontier = Stack()
+    frontier.push((problem.getStartState(), []))
+    while not frontier.isEmpty():
+        state, path = frontier.pop()
+        if state in marked:
+            continue
+        if problem.isGoalState(state):
+            return path
+        marked.add(state)
+        successors = problem.getSuccessors(state)
+        for nextState, action, cost in successors:
+            frontier.push((nextState, path + [action]))
+    return []
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    from util import Queue
+    marked = set()
+    frontier = Queue()
+    frontier.push((problem.getStartState(), []))
+    marked.add(problem.getStartState())
+    while not frontier.isEmpty():
+        state, path = frontier.pop();
+        if problem.isGoalState(state):
+            return path
+        successors = problem.getSuccessors(state)
+        for nextState, action, cost in successors:
+            if nextState not in marked:
+                frontier.push((nextState, path + [action]))
+                marked.add(nextState)
+    return []
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    #storing nodes as (state, path) representation
+    #thus, pq.update(state, priority) doesn't work, so we'll just lazy delete
+    #nodes in the queue whose state we have already expanded
+    from util import PriorityQueue
+    marked = set()
+    pq = PriorityQueue()
+    pq.push((problem.getStartState(), []), 0)
+
+    while not pq.isEmpty():
+        state, path = pq.pop()
+        if problem.isGoalState(state):
+            return path
+        if state in marked:   #lazy delete already expanded states
+            continue
+        marked.add(state)
+        successors = problem.getSuccessors(state)
+        for nextState, action, cost in successors:
+            if nextState not in marked:
+                nextCost = problem.getCostOfActions(path + [action])
+                pq.push((nextState, path + [action]), nextCost)
+    return []
+
 
 def nullHeuristic(state, problem=None):
     """
@@ -109,7 +159,31 @@ def nullHeuristic(state, problem=None):
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    #using lazy deletion, same as UCS
+    from util import PriorityQueue
+    marked = set()      #set of states expanded
+    pq = PriorityQueue()
+    gn = 0
+    hn = heuristic(problem.getStartState(), problem)
+    fn = hn + gn
+    pq.push((problem.getStartState(), []), fn)
+
+    while not pq.isEmpty():
+        state, path = pq.pop()
+        if problem.isGoalState(state):
+            return path
+        if state in marked:
+            continue
+        marked.add(state)
+        successors = problem.getSuccessors(state)
+        for nextState, action, cost in successors:
+            if nextState not in marked:
+                gn = problem.getCostOfActions(path + [action])
+                hn = heuristic(nextState, problem)
+                fn = hn + gn
+                pq.push((nextState, path + [action]), fn)
+    return []
+
 
 
 # Abbreviations

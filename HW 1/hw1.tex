@@ -25,7 +25,7 @@ LWSN, ELLT, WTHR, HEAV, HAAS, PMU
 
 \section*{Q2}
 \paragraph*{(a)}
-It very much depends on the structure of the graph. If solutions are fairly shallow, then BFS will likely do well as it expands all nodes at a given depth before going deeper. On the other hand, if solutions are fairly deep, then DFS will likely be better as it explores as deep as possibly before rewinding and starting a new path. 
+It very much depends on the structure of the graph. If solutions are fairly shallow, then BFS will likely do well as it expands all nodes at a given depth before going deeper. On the other hand, if solutions are fairly deep, then DFS will likely be better as it explores as deep as possible before rewinding and starting a new path. 
 
 \paragraph*{(b)}
 In a heuristic search, h(n) must underestimate the cost value to the goal, else it's possible that the algorithm will fail. If we always underestimate the cost, then all nodes which have path cost less than the optimal solution cost will be expanded since these are all possible nodes on the solution path. If we overestimate the cost, we might not expand a node that is actually on the solution path.
