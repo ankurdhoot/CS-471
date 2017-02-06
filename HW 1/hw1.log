@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  29 JAN 2017 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  4 FEB 2017 21:54
 entering extended mode
 **./hw1.tex
 (hw1.tex
@@ -71,36 +71,102 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip43
 \thanksmargin=\skip44
 \droptitle=\skip45
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdf
+pages.sty"
+Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.
+sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.s
+ty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen105
+\calc@Bdimen=\dimen106
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count90
+\calc@Cskip=\skip48
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-
+pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\a
+tbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\i
+fpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+))
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolo
+r.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\col
+or.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen107
+\AM@pageheight=\dimen108
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\ppp
+dftex.def"
+File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@global@opts=\toks15
+\AM@toc@title=\toks16
+\c@AM@survey=\count91
+\AM@templatesizebox=\box27
 ) (hw1.aux)
 \openout1 = `hw1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 
 ("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-
 pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
-\scratchdimen=\dimen105
-\scratchbox=\box26
-\nofMPsegments=\count89
-\nofMParguments=\count90
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count91
-\MPscratchDim=\dimen106
-\MPnumerator=\count92
-\makeMPintoPDFobject=\count93
-\everyMPtoPDFconversion=\toks16
+\scratchcounter=\count92
+\scratchdimen=\dimen109
+\scratchbox=\box28
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen110
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks18
 )
 ("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\p
 dftexcmds.sty"
@@ -111,10 +177,6 @@ Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 fluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\i
-fpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -156,43 +218,102 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+\AtBeginShipoutBox=\box29
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdf
+lscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lsc
+ape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\if
+xetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 7.
+(Font)              <12> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 7.
+(Font)              <8> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 7.
+(Font)              <6> on input line 8.
  [1
 
 {C:/Users/Ankur Dhoot/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 37.
- [2] (hw1.aux) ) 
+(Font)              <10.95> on input line 38.
+ [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.
+fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+ <3b.pdf, id=19, 614.295pt x 794.97pt>
+File: 3b.pdf Graphic file (type pdf)
+ <use 3b.pdf>
+Package pdftex.def Info: 3b.pdf used on input line 87.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: 3b.pdf Graphic file (type pdf)
+ <use 3b.pdf>
+Package pdftex.def Info: 3b.pdf used on input line 87.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<3b.pdf, id=22, page=1, 614.295pt x 794.97pt>
+File: 3b.pdf Graphic file (type pdf)
+ <use 3b.pdf, page 1>
+Package pdftex.def Info: 3b.pdf, page1 used on input line 87.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: 3b.pdf Graphic file (type pdf)
+
+<use 3b.pdf, page 1>
+Package pdftex.def Info: 3b.pdf, page1 used on input line 87.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [3]
+File: 3b.pdf Graphic file (type pdf)
+ <use 3b.pdf, page 1>
+Package pdftex.def Info: 3b.pdf, page1 used on input line 87.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 3b.pdf Graphic file (type pdf)
+ <use 3b.pdf, page 1>
+Package pdftex.def Info: 3b.pdf, page1 used on input line 87.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 3b.pdf Graphic file (type pdf)
+
+<use 3b.pdf, page 1>
+Package pdftex.def Info: 3b.pdf, page1 used on input line 87.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [4 <./3b.pdf>] [5] [6] (hw1.aux) ) 
 Here is how much of TeX's memory you used:
- 1548 strings out of 493334
- 23065 string characters out of 3127622
- 82002 words of memory out of 3000000
- 5087 multiletter control sequences out of 15000+200000
+ 2889 strings out of 493334
+ 43167 string characters out of 3127622
+ 109525 words of memory out of 3000000
+ 6384 multiletter control sequences out of 15000+200000
  8504 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,25p,691b,191s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ankur Dhoot/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Us
+ 40i,18n,43p,901b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Ankur Dhoot/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Ankur Dhoot/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
 ers/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ankur Dhoot/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ank
-ur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
-pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Ankur Dhoot/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on hw1.pdf (2 pages, 112135 bytes).
+m/cmmi10.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ankur Dhoot/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/An
+kur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ankur Dhoot/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Ankur Dho
+ot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on hw1.pdf (6 pages, 172320 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

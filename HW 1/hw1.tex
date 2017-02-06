@@ -1,6 +1,7 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage{graphicx}
 \usepackage{titling}
+\usepackage{pdfpages}
 \begin{document}
 \author{Ankur Dhoot}
 \title{CS 471 HW}
@@ -57,7 +58,104 @@ We have proved that whenever a node is expanded, the optimal f-cost to that node
 
 \section*{Q3}
 
+\paragraph*{(a)}
+We need to find assignments of diplomats to planets that satisfy the constraints given.
 
+Domains:
+
+$\alpha$ : \{ x, y, z\}
+
+$\zeta$: \{x, y\}
+
+$\gamma$: \{x, z\}
+
+$\beta$: \{y\}
+
+$\omega$: \{y, z\}
+
+$\mu$ : \{y, z\}
+
+Constraints:
+
+$\zeta \neq \omega$
+
+$\mu \neq \gamma$
+
+Alldiff($\alpha$, $\beta$, $\omega$)
+
+\paragraph*{(b)}
+\includepdf[]{3b.pdf}
+
+
+\paragraph*{(c)}
+
+As can be seen from the constraint graph, there are two connected components, one of size 2 and one of size 4. Thus, by breaking into connected components, we can solve the problem in time O($d^{2} + d^{4}$) = O($d^{4}$).
+
+Otherwise, if we choose a value for any of $\alpha$, $\omega$, $\beta$, then we can do a topological sort on the remaining graph (since it contains no cycles) and solve the smaller problem in O((n-1)$d^{2}$) time. 
+
+Both of these methods are faster than checking all possible combinations which would be O($d^{6}$).
+
+\section*{Q4}
+
+\paragraph*{(a)}
+
+We'll denote $R_{a}$ by A, $R_{b}$ by B, and $R_{c}$ by C.
+
+Domains:
+
+C1: \{A, B\}
+
+C2: \{B, C\}
+
+C3: \{B, C\}
+
+C4: \{A\}
+
+C5: \{A, C\}
+
+C6: \{A, B\}
+
+C7: \{B, C\}
+
+Constraints:
+
+C1 $\neq$ C6
+
+C1 $\neq$ C7
+
+C2 $\neq$ C3
+
+C2 $\neq$ C4
+
+C3 $\neq$ C4
+
+C4 $\neq$ C5
+
+\paragraph*{(b)}
+
+The only arc that is inconsistent is C5 $\neq$ C4. Revising the domains gives C5 : \{C\}. Since there are no other arcs from C5, this is the only revision that occurs during AC-3. 
+
+Thus, after AC-3, the domains are :
+
+C1: \{A, B\}
+
+C2: \{B, C\}
+
+C3: \{B, C\}
+
+C4: \{A\}
+
+C5: \{C\}
+
+C6: \{A, B\}
+
+C7: \{B, C\}
+
+\paragraph*{(c)}
+
+Since C4 and C5 both have 1 remaining value, these two variables will be set first (C4 = A, C5 = C). After C4 and C5 are set, all remaining variables still have 2 remaining values. Suppose we choose C1. C1 has constraints with C6 and C7. Choosing C1 = A follows the least-constraining value heuristic (C1 = B would have reduced the domain of C6 and C7, C1 = A only reduces the domain of C6). Then, that reduces the domain of C6 to C6 : \{B\}. Thus, we then set C6 = B. C2, C3, C7 still have 2 remaining values in their domains. Suppose we choose C2. C2 has a constraint with C3. Setting C2 = B or C2 = C reduces the domain of C3 in either case by 1 so we can choose either value. Thus, we set C2 = B. That reduces the domain of C3 to C3 : \{C\}. Thus, we set C3 = 3. The last remaining variables is C7 with two values and can be set to either one. Suppose we set C7 = C.
+
+Thus, we get C4 = A, C5 = C, C1 = A, C6 = B, C2 = B, C3 = 3, C7 = C. 
  
 
 
