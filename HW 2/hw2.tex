@@ -135,7 +135,7 @@ In search tree form, read left to right as in DFS (similar to Figure 9.7 in RN):
 
 2. $\exists x$ $\forall y$ HasDisease(y,x) $\Rightarrow$ Hungry(y)
 
-3. $\forall x$ OnShip(Enterprise, x) $\Rightarrow$ $\neg$ Diseased(x)
+3. $\forall x$ OnShip(x, Enterprise) $\Rightarrow$ $\neg$ Diseased(x)
 
 4. Pizzas(Kirk)
 
@@ -151,7 +151,7 @@ In search tree form, read left to right as in DFS (similar to Figure 9.7 in RN):
 
 2. $\neg$ HasDisease(y, C1) $\vee$ Hungry(y)     (Skolem Constant C1)
 
-3. $\neg$ OnShip(Enterprise, x) $\vee$ $\neg$ Diseased(x)
+3. $\neg$ OnShip(x, Enterprise) $\vee$ $\neg$ Diseased(x)
 
 4. Pizzas(Kirk)
 
@@ -194,12 +194,12 @@ $\therefore$ Diseased(Kirk)
 
 4. Diseased(Kirk)
 
-$\neg$ OnShip(Enterprise, x) $\vee$ $\neg$ Diseased(x)
+$\neg$ OnShip(x, Enterprise) $\vee$ $\neg$ Diseased(x)
 
-$\therefore$ $\neg$ OnShip(Enterprise, Kirk)
+$\therefore$ $\neg$ OnShip(Kirk, Enterprise)
 \newline
 
-5. $\neg$ OnShip(Enterprise, Kirk)
+5. $\neg$ OnShip(Kirk, Enterprise)
 
 $\neg$ Captain(y, x) $\vee$ OnShip(x, y) 
 
