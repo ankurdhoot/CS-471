@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  22 FEB 2017 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  24 FEB 2017 01:29
 entering extended mode
 **./hw2.tex
 (hw2.tex
@@ -863,12 +863,7 @@ Overfull \hbox (59.08224pt too wide) in paragraph at lines 37--38
 [1
 
 {C:/Users/Ankur Dhoot/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
-
- []
-
-
+[2] [3]
 Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
@@ -883,17 +878,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--194
 
  []
 
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
 
  []
 
-[5] (hw2.aux) ) 
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+
+ []
+
+[6] (hw2.aux) ) 
 Here is how much of TeX's memory you used:
- 28291 strings out of 493334
- 656951 string characters out of 3127622
- 692225 words of memory out of 3000000
- 31476 multiletter control sequences out of 15000+200000
+ 28290 strings out of 493334
+ 656930 string characters out of 3127622
+ 693034 words of memory out of 3000000
+ 31475 multiletter control sequences out of 15000+200000
  11045 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,77p,10373b,1514s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -913,9 +918,9 @@ ur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Ankur Dho
 ot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10
 .pfb>
-Output written on hw2.pdf (5 pages, 137566 bytes).
+Output written on hw2.pdf (6 pages, 141571 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
