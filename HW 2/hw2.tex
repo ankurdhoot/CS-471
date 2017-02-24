@@ -42,7 +42,7 @@ Suppose we're at a node corresponding to Player B. We have values $\alpha$ and $
 
 \section*{Q2}
 \paragraph*{(a)}
-A possible fitness function would be defined by counting the number of digits (starting at the third digit) in the sequence that are equal to the sum of the previous two and dividing by the length of the sequence (after the first two digits). So the sequence 1 2 3 4 would have fitness score 1/2. Essentially, it the fitness function gives the fraction of "correct" digits in the sequence. If the sequence is shorter than 3, trivially define the fitness function to return 1.
+A possible fitness function would be defined by counting the number of digits (starting at the third digit) in the sequence that are equal to the sum of the previous two and dividing by the length of the sequence (after the first two digits). So the sequence 1 2 3 4 would have fitness score 1/2 (3 = 1 + 2, 4 $\neq$ 2 + 3). Essentially, it the fitness function gives the fraction of "correct" digits in the sequence. If the sequence is shorter than 3, trivially define the fitness function to return 1.
 
 \paragraph*{(b)}
 If the sequences are fixed length, it's possible that making local changes to the sequence (i.e changing any one digit in the sequence) will not improve the fitness function. We might make a given position in the sequence the sum of the previous two, but this could break the rule on one of the next two digits. For example, the sequence 1 4 5 8 cannot be improved (according to the score function) by changing a single digit. Thus, we could get stuck on plateaus or local minima. 
