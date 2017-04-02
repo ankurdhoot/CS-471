@@ -1,0 +1,583 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  2 APR 2017 04:14
+entering extended mode
+**./hw3.tex
+(hw3.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article
+.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.
+clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\gra
+phicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\key
+val.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\gra
+phics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\tri
+g.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\gra
+phics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def
+\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\i
+nfwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\l
+txcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titling\titl
+ing.sty"
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip43
+\thanksmargin=\skip44
+\droptitle=\skip45
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdf
+pages.sty"
+Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.
+sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.s
+ty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen105
+\calc@Bdimen=\dimen106
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count90
+\calc@Cskip=\skip48
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-
+pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\a
+tbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\i
+fpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+))
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolo
+r.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\col
+or.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen107
+\AM@pageheight=\dimen108
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\ppp
+dftex.def"
+File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@global@opts=\toks15
+\AM@toc@title=\toks16
+\c@AM@survey=\count91
+\AM@templatesizebox=\box27
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsm
+ath.sty"
+Package: amsmath 2016/06/28 v2.15d AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amst
+ext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsg
+en.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen109
+))
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsb
+sy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen110
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amso
+pn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks18
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks19
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\ams
+symb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\ams
+fonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mnsymbol\MnS
+ymbol.sty"
+Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcom
+p.sty"
+Package: textcomp 2016/06/19 v1.99m Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.
+def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+LaTeX Info: Redefining \dagger on input line 84.
+LaTeX Info: Redefining \ddagger on input line 84.
+LaTeX Info: Redefining \mathparagraph on input line 84.
+LaTeX Info: Redefining \mathsection on input line 84.
+LaTeX Info: Redefining \mathdollar on input line 84.
+LaTeX Info: Redefining \mathsterling on input line 84.
+LaTeX Info: Redefining \yen on input line 84.
+LaTeX Info: Redefining \circledR on input line 84.
+LaTeX Info: Redefining \circledS on input line 84.
+LaTeX Info: Redefining \Re on input line 84.
+LaTeX Info: Redefining \Im on input line 84.
+LaTeX Info: Redefining \dotplus on input line 84.
+LaTeX Info: Redefining \thicksim on input line 84.
+LaTeX Info: Redefining \thickapprox on input line 84.
+LaTeX Info: Redefining \veebar on input line 84.
+LaTeX Info: Redefining \barwedge on input line 84.
+LaTeX Info: Redefining \doublebarwedge on input line 84.
+LaTeX Info: Redefining \centerdot on input line 84.
+LaTeX Info: Redefining \divideontimes on input line 84.
+\symMnSyA=\mathgroup6
+\symMnSyB=\mathgroup7
+\symMnSyC=\mathgroup8
+\symMnSyD=\mathgroup9
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
+(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
+LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
+(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
+LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
+(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
+(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
+25.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
+41.
+LaTeX Info: Redefining \longrightarrow on input line 548.
+LaTeX Info: Redefining \longleftarrow on input line 549.
+LaTeX Info: Redefining \longleftrightarrow on input line 550.
+LaTeX Info: Redefining \Longrightarrow on input line 551.
+LaTeX Info: Redefining \Longleftarrow on input line 552.
+LaTeX Info: Redefining \Longleftrightarrow on input line 553.
+LaTeX Info: Redefining \longmapsto on input line 554.
+LaTeX Info: Redefining \vdots on input line 868.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
+LaTeX Info: Redefining \downbracefill on input line 1799.
+LaTeX Info: Redefining \upbracefill on input line 1800.
+LaTeX Info: Redefining \overbrace on input line 1819.
+LaTeX Info: Redefining \underbrace on input line 1820.
+LaTeX Info: Redefining \surd on input line 1843.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
+) (hw3.aux)
+\openout1 = `hw3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 8.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.
+fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 8.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-
+pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen118
+\scratchbox=\box30
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen119
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks23
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\p
+dftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\i
+fluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\eps
+topdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grf
+ext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\k
+vdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvo
+ptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\k
+vsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\e
+texcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box31
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdf
+lscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lsc
+ape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\if
+xetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\ums
+a.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+
+("C:\Users\Ankur Dhoot\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\ums
+b.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/Ankur Dhoot/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (12.28218pt too wide) in paragraph at lines 82--83
+ \OT1/cmr/bx/n/10.95 (b) \OT1/cmr/m/n/10.95 If we are told that $\OMX/MnSymbolE
+/m/n/10.95 à\OML/cmm/m/it/10.95 X[] \U/MnSymbolA/m/n/10.95 · \OML/cmm/m/it/10.9
+5 X[] \OMX/MnSymbolE/m/n/10.95 S \OML/cmm/m/it/10.95 Y\OMX/MnSymbolE/m/n/10.95 
+ç$\OT1/cmr/m/n/10.95 , then $\OML/cmm/m/it/10.95 P\OMX/MnSymbolE/m/n/10.95 à\OM
+L/cmm/m/it/10.95 X[]; X[]\OMX/MnSymbolE/m/n/10.95 S\OML/cmm/m/it/10.95 Y\OMX/Mn
+SymbolE/m/n/10.95 ç \U/MnSymbolD/m/n/10.95   \OML/cmm/m/it/10.95 P\OMX/MnSymbol
+E/m/n/10.95 à\OML/cmm/m/it/10.95 X[]\OMX/MnSymbolE/m/n/10.95 S\OML/cmm/m/it/10.
+95 Y\OMX/MnSymbolE/m/n/10.95 ç\OML/cmm/m/it/10.95 P\OMX/MnSymbolE/m/n/10.95 à\O
+ML/cmm/m/it/10.95 X[]\OMX/MnSymbolE/m/n/10.95 S\OML/cmm/m/it/10.95 Y\OMX/MnSymb
+olE/m/n/10.95 ç$\OT1/cmr/m/n/10.95 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Overfull \hbox (9.59421pt too wide) in paragraph at lines 84--85
+[]\OT1/cmr/m/n/10.95 Thus $\OML/cmm/m/it/10.95 P\OMX/MnSymbolE/m/n/10.95 à\OML/
+cmm/m/it/10.95 y\OMX/MnSymbolE/m/n/10.95 S\OML/cmm/m/it/10.95 x[]; x[]\OMX/MnSy
+mbolE/m/n/10.95 ç \U/MnSymbolD/m/n/10.95   []   []   []$ 
+ []
+
+
+Overfull \hbox (1.72412pt too wide) in paragraph at lines 88--89
+[]\OT1/cmr/m/n/10.95 The first dis-tri-bu-tion ($\OML/cmm/m/it/10.95 P\OMX/MnSy
+mbolE/m/n/10.95 à\OML/cmm/m/it/10.95 x[]; x[]; P\OMX/MnSymbolE/m/n/10.95 à\OML/
+cmm/m/it/10.95 y\OMX/MnSymbolE/m/n/10.95 ç\OML/cmm/m/it/10.95 ; P\OMX/MnSymbolE
+/m/n/10.95 à\OML/cmm/m/it/10.95 x[]\OMX/MnSymbolE/m/n/10.95 S\OML/cmm/m/it/10.9
+5 y\OMX/MnSymbolE/m/n/10.95 ç\OML/cmm/m/it/10.95 ; P\OMX/MnSymbolE/m/n/10.95 à\
+OML/cmm/m/it/10.95 x[]\OMX/MnSymbolE/m/n/10.95 S\OML/cmm/m/it/10.95 y\OMX/MnSym
+bolE/m/n/10.95 ç$\OT1/cmr/m/n/10.95 ) can be used since
+ []
+
+
+Overfull \hbox (2.13113pt too wide) in paragraph at lines 94--95
+[]$\OML/cmm/m/it/10.95 P\OMX/MnSymbolE/m/n/10.95 à\OML/cmm/m/it/10.95 x[]; x[]\
+OMX/MnSymbolE/m/n/10.95 ç \U/MnSymbolD/m/n/10.95   [] \OML/cmm/m/it/10.95 P\OMX
+/MnSymbolE/m/n/10.95 à\OML/cmm/m/it/10.95 x[]; x[]; y\OMX/MnSymbolE/m/n/10.95 ç
+ \U/MnSymbolD/m/n/10.95   [] \OML/cmm/m/it/10.95 P\OMX/MnSymbolE/m/n/10.95 à\OM
+L/cmm/m/it/10.95 x[]; x[]\OMX/MnSymbolE/m/n/10.95 S\OML/cmm/m/it/10.95 y\OMX/Mn
+SymbolE/m/n/10.95 ç\OML/cmm/m/it/10.95 P\OMX/MnSymbolE/m/n/10.95 à\OML/cmm/m/it
+/10.95 y\OMX/MnSymbolE/m/n/10.95 ç \U/MnSymbolD/m/n/10.95   [] \OML/cmm/m/it/10
+.95 P\OMX/MnSymbolE/m/n/10.95 à\OML/cmm/m/it/10.95 x[]\OMX/MnSymbolE/m/n/10.95 
+S\OML/cmm/m/it/10.95 y\OMX/MnSymbolE/m/n/10.95 ç\OML/cmm/m/it/10.95 P\OMX/MnSym
+bolE/m/n/10.95 à\OML/cmm/m/it/10.95 x[]\OMX/MnSymbolE/m/n/10.95 S\OML/cmm/m/it/
+10.95 y\OMX/MnSymbolE/m/n/10.95 ç\OML/cmm/m/it/10.95 P\OMX/MnSymbolE/m/n/10.95 
+à\OML/cmm/m/it/10.95 y\OMX/MnSymbolE/m/n/10.95 ç$\OT1/cmr/m/n/10.95 . 
+ []
+
+[2] [3] [4] (hw3.aux) ) 
+Here is how much of TeX's memory you used:
+ 5428 strings out of 493334
+ 76493 string characters out of 3127622
+ 126588 words of memory out of 3000000
+ 8860 multiletter control sequences out of 15000+200000
+ 16536 words of font info for 58 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,9n,39p,305b,203s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/
+fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{C:/Users/Ankur Dhoot/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{C:/Users/Ankur Dhoot/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{C:/User
+s/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymb
+olF.enc}{C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
+/mnsymbol/MnSymbolE.enc}<C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/mnsymbol/MnSymbol10.pfb><C:/Users/Ankur Dhoot/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Ankur 
+Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Ankur Dhoot/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ankur Dhoot
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr17.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb><C:/Users/Ankur Dhoot/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on hw3.pdf (4 pages, 126278 bytes).
+PDF statistics:
+ 68 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

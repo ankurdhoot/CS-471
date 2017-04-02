@@ -1,0 +1,150 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{titling}
+\usepackage{pdfpages}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{MnSymbol}
+\begin{document}
+\author{Ankur Dhoot}
+\title{CS 471 HW 3}
+\maketitle
+
+\section*{Q1}
+
+\paragraph*{(b)}
+P(x $|$ y) = P(x,y)/P(y) = $\sum\limits_{Z} P(x,y,z)/P(y)$ = $\sum\limits_{Z} P(x,z | y)$  
+
+where the second equality follows because the joint distribution must be consistent with the marginal.
+
+\section*{Q2}
+\paragraph*{a}
+Symmetry: $(X \upmodels Y \mid Z) \Rightarrow (Y \upmodels X \mid Z)$
+
+We have $P(X|Y,Z) = P(X|Z)$.
+
+\begin{equation*}
+	\begin{aligned}
+	P(Y|X,Z) = \dfrac{P(Y,X,Z)}{P(X,Z)} = \dfrac{P(X|Y,Z)P(Y,Z)}{P(X,Z)} \\= \dfrac{P(X|Z)P(Y,Z)}{P(X|Z)P(Z)} = \dfrac{P(Y,Z)}{P(Z)} = P(Y|Z) \\ 
+	\therefore (Y \upmodels X \mid Z)
+	\end{aligned}
+\end{equation*}
+
+Decomposition: $(X \upmodels Y,W \mid Z) \Rightarrow (X \upmodels Y \mid Z)$
+
+We have $P(X,Y,W|Z) = P(X|Z)P(Y,W|Z)$
+\begin{equation*}
+	\begin{aligned}
+	P(X,Y|Z) = \sum\limits_{w} P(X,Y,w | Z) = \sum\limits_{w} P(X|Z)P(Y,w|Z) \\= P(X|Z)\sum\limits_{w}P(Y,w|Z) = P(X|Z)P(Y|Z) \\
+	\therefore (X \upmodels Y \mid Z)
+	\end{aligned}
+\end{equation*}
+
+Weak Union: $(X \upmodels Y,W \mid Z) \Rightarrow (X \upmodels Y \mid Z,W)$
+
+We have $P(X|Y,W,Z) = P(X|Z)$ and by Decomposition $P(X|W,Z) = P(X|Z)$
+\begin{equation*}
+	\begin{aligned}
+	P(X,Y|W,Z) = P(X|Y,W,Z)P(Y|W,Z) = \\ P(X|Z)P(Y|W,Z) = P(X|W,Z)P(Y|W,Z) \\
+	\therefore (X \upmodels Y \mid Z,W)
+	\end{aligned}
+\end{equation*}
+
+Contraction: $(X \upmodels Y \mid Z,W)$ \& $(X \upmodels Y \mid Z) \Rightarrow (X \upmodels Y,W \mid Z)$
+
+We have $P(X|Y,W,Z) = P(X|Y,Z)$ and $P(X|Y,Z) = P(X|Z)$
+\begin{equation*}
+	\begin{aligned}
+	P(X,Y,W|Z) = P(X|Y,W,Z)P(Y,W|Z) = \\ P(X|Y,Z)P(Y,W|Z) = P(X|Z)P(Y,W|Z) \\
+	\therefore (X \upmodels Y,W \mid Z)
+	\end{aligned}
+\end{equation*}
+
+\paragraph*{(b)}
+
+\section*{Q3}
+
+\paragraph*{(a)}
+$P(y|x_{1},x_{2}) = \dfrac{P(x_{1},x_{2},y)}{P(x_{1},x_{2})} = \dfrac{P(x_{1},x_{2}|y)P(y)}{P(x_{1},x_{2})}$
+
+Only the second set of distributions can be used:
+
+
+It's clear we can calculate the desired quantity using the second set of distributions ($P(x_{1},x_{2}), P(y), P(x_{1},x_{2}|y)$) since these are exactly the terms that appear above. 
+
+The first and third set of distributions require the additional assumption that $(X_{1} \upmodels X_{2} \mid Y)$ since $P(x_{1},x_{2}|y) \neq P(x_{1}|y)P(x_{2}|y)$ in general. We'll show in (b) how to use this assumption to calculate the desired quantity.
+
+The fourth set of distributions provides us no way of knowing $P(y)$ nor $P(x_{1},x_{2})$ since $P(x_{1},x_{2}) \neq P(x_{1})P(x_{2})$ in general.
+
+The fifth set of distributions also provides us no way of knowing $P(y)$ nor $P(x_{1},x_{2})$ since $P(x_{1},x_{2}) \neq P(x_{1})P(x_{2})$ in general nor $P(x_{1},x_{2}|y)$ since $P(x_{1},x_{2}|y) \neq P(x_{1}|y)P(x_{2}|y)$ in general.
+
+\paragraph*{(b)}
+If we are told that $(X_{1} \upmodels X_{2} \mid Y)$, then $P(X_{1},X_{2}|Y) = P(X_{1}|Y)P(X_{2}|Y)$. \newline
+
+Thus $P(y|x_{1},x_{2}) = \dfrac{P(x_{1},x_{2},y)}{P(x_{1},x_{2})} = \dfrac{P(x_{1},x_{2}|y)P(y)}{P(x_{1},x_{2})} = \dfrac{P(x_{1}|y)P(x_{2}|y)P(y)}{P(x_{1},x_{2})}$
+
+Obviously, the second distribution can still be used to calculate the desired quantity since that distribution requires no additional assumptions.
+
+The first distribution ($P(x_{1}, x_{2}, P(y), P(x_{1}|y), P(x_{2}|y)$) can be used since it contains all the components in the final equality above. 
+
+The third distribution ($P(x_{1}|y), P(x_{2}|y), P(y)$) can also be used with a little bit more work:
+
+We have the components for the numerator in the final equality above so we need to still compute the denominator.
+
+$P(x_{1},x_{2}) = \sum\limits_{y} P(x_{1}, x_{2}, y) = \sum\limits_{y} P(x_{1}, x_{2} | y)P(y) = \sum\limits_{y} P(x_{1}|y)P(x_{2}|y)P(y)$.
+
+All the terms in the final equality occur in the third distribution. Thus, we can use the third distribution to compute the desired quantity.
+
+The fourth and fifth distributions still can't be used because they provide no way of calculating $P(y)$.
+
+\section*{Q4}
+\paragraph*{(a)}
+
+\paragraph*{(b)}
+
+\section*{Q5}
+
+\section*{Q6}
+$Q = \sum\limits_{Z_{1}}P(y|x,z_{1})P(z_{1})$
+\paragraph*{(a)}
+$P(y|x) = \sum\limits_{Z_{1}} P(y,z_{1}|x) = \sum\limits_{Z_{1}} P(y|z_{1},x)P(z_{1}|x)$
+
+Looking at corresponding terms, we see that Q = $P(y|x)$ if $P(z_{1}|x) = P(P(z_{1})$ (i.e $(Z_{1} \upmodels X)$). But the graph implies no such independence, so it's not necessarily the case that the distribution P satisfies ($Z_{1} \upmodels X)$. Thus, we cannot conclude that Q = $P(y|x)$.
+
+\paragraph*{(b)}
+Yes. From the graph, we see the following independencies: 
+
+($Y \upmodels Z_{1} \mid X, Z_{2})$) and ($Z_{2} \upmodels X \mid Z_{1}$)
+
+which means $P(Y|Z_{1},Z_{2},X) = P(Y|X,Z_{2})$ and $P(Z_{2}|X,Z_{1}) = P(Z_{2}|Z_{1})$
+
+\begin{equation*}
+	\begin{aligned}
+	Q = \sum\limits_{Z_{1}}P(y|x,z_{1})P(z_{1}) \\= 
+\sum\limits_{Z_{1}} \sum\limits_{Z_{2}} P(y,z_{2}|x,z_{1})P(z_{1}) \\= 
+\sum\limits_{Z_{1}} \sum\limits_{Z_{2}} P(y|z_{1},z_{2},x)P(z_{2}|x,z_{1})P(z_{1}) \\= 
+\sum\limits_{Z_{1}} \sum\limits_{Z_{2}} P(y|z_{2},x)P(z_{2}|x,z_{1})P(z_{1}) \\= 
+\sum\limits_{Z_{1}} \sum\limits_{Z_{2}} P(y|z_{2},x)P(z_{2}|z_{1})P(z_{1}) \\= 
+\sum\limits_{Z_{1}} \sum\limits_{Z_{2}} P(y|z_{2},x)P(z_{1},z_{2}) \\= 
+\sum\limits_{Z_{2}} P(y|z_{2},x) \sum\limits_{Z_{1}} P(z_{1},z_{2}) \\=
+\sum\limits_{Z_{2}} P(y|z_{2},x)P(z_{2}) \\= 
+\sum\limits_{Z_{2}} \dfrac{P(x,y,z_{2})P(z_{2})}{P(x,z_{2})}
+	\end{aligned}
+\end{equation*}
+
+$P(z_{2}) = \sum\limits_{X} \sum\limits_{Y} P(x,y,z_{2})$
+
+$P(x,z_{2}) = \sum\limits_{Y} P(x,y,z_{2})$
+
+Thus, we can compute all terms in the final equality in terms of the given distribution, $P(X,Y,Z_{2})$.
+
+\section*{Q7}
+
+
+
+
+
+
+
+
+\end{document}
